@@ -1,0 +1,63 @@
+<svg width="605" height="508" viewBox="0 0 700 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path id="path2" d="M472 211C472 316.21 594.042 404 451 404C307.958 404 49.932 459.21 49.932 354C49.932 248.79 -74.0418 115 69 115C212.042 115 472 105.79 472 211Z" fill="transparent"/>
+    <path id="path3" d="M507 232C507 337.21 441.042 451 298 451C154.958 451 2 348.21 2 243C2 137.79 290.958 84 434 84C577.042 84 507 126.79 507 232Z" fill="transparent"/>
+    <path id="path4" d="M605 231C605 336.21 272.042 427 129 427C-14.0417 427 59 336.21 59 231C59 125.79 154.958 47 298 47C441.042 47 605 125.79 605 231Z" fill="transparent"/>
+    <path id="path5" d="M481 279C481 384.21 551.042 477 408 477C264.958 477 58 228.21 58 123C58 17.7898 258.958 25 402 25C545.042 25 481 173.79 481 279Z" fill="transparent"/>
+    <path id="path6" d="M459 190C459 295.21 474.042 508 331 508C187.958 508 87 358.21 87 253C87 147.79 136.958 0 280 0C423.042 0 459 84.7898 459 190Z" fill="transparent"/>
+
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur"/>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 17 -7" result="goo"/>
+
+        </filter>
+    </defs>
+    <g filter="url(#goo)" dominant-baseline="central" transform="translate(50 40)">
+        <circle r='30' fill="#00ffff">
+            <animateMotion dur="27s" repeatCount="indefinite">
+                <mpath xlink:href="#path1"/>
+            </animateMotion>
+        </circle>
+        <circle r='35' fill="#00ffff">
+            <animateMotion dur="17s" repeatCount="indefinite">
+                <mpath xlink:href="#path2"/>
+            </animateMotion>
+        </circle>
+        <circle r='25' fill="#00ffff">
+            <animateMotion dur="15s" repeatCount="indefinite">
+                <mpath xlink:href="#path3"/>
+            </animateMotion>
+        </circle>
+        <circle r='33' fill="#00ffff">
+            <animateMotion dur="23s" repeatCount="indefinite">
+                <mpath xlink:href="#path4"/>
+            </animateMotion>
+        </circle>
+        <circle r='38' fill="#00ffff">
+            <animateMotion dur="15s" repeatCount="indefinite">
+                <mpath xlink:href="#path5"/>
+            </animateMotion>
+        </circle>
+        <circle r='31' fill="#00ffff">
+            <animateMotion dur="25s" repeatCount="indefinite">
+                <mpath xlink:href="#path6"/>
+            </animateMotion>
+        </circle>
+
+        <path id="path1" d="M567 232C567 337.21 443.042 425 300 425C156.958 425 11 395.21 11 290C11 184.79 143.958 93 287 93C430.042 93 567 126.79 567 232Z" fill="#a2ff00">
+            <animate
+                attributeName="d" 
+                dur="10s"
+                repeatCount="indefinite"
+                values="M567 232C567 337.21 443.042 425 300 425C156.958 425 11 395.21 11 290C11 184.79 143.958 93 287 93C430.042 93 567 126.79 567 232Z;
+                M472 211C472 316.21 594.042 404 451 404C307.958 404 49.932 459.21 49.932 354C49.932 248.79 -74.0418 115 69 115C212.042 115 472 105.79 472 211Z;
+                M507 232C507 337.21 441.042 451 298 451C154.958 451 2 348.21 2 243C2 137.79 290.958 84 434 84C577.042 84 507 126.79 507 232Z;
+                M605 231C605 336.21 272.042 427 129 427C-14.0417 427 59 336.21 59 231C59 125.79 154.958 47 298 47C441.042 47 605 125.79 605 231Z;
+                M481 279C481 384.21 551.042 477 408 477C264.958 477 58 228.21 58 123C58 17.7898 258.958 25 402 25C545.042 25 481 173.79 481 279Z;
+                M459 190C459 295.21 474.042 508 331 508C187.958 508 87 358.21 87 253C87 147.79 136.958 0 280 0C423.042 0 459 84.7898 459 190Z;
+                M567 232C567 337.21 443.042 425 300 425C156.958 425 11 395.21 11 290C11 184.79 143.958 93 287 93C430.042 93 567 126.79 567 232Z;"
+            />   
+        </path>
+    </g>
+    
+</svg>
